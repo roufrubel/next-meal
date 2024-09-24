@@ -26,7 +26,7 @@ const Meals = () => {
 
        useEffect( () => {
         loadData()
-    }, []);
+    }, );
 
     // if(meals?.length ===0){
     //     return <h6>No Data Found...</h6>
